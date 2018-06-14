@@ -26,7 +26,14 @@
 	line-height: normal;
 }
 /* Header --------------------------------------------------------------------------------------------------------------- */
-#header {}
+#header {
+	position: fixed;
+	margin-left: 11%;
+  width: 100vw;
+  height: 50px;
+  transition: 0.2s linear;
+	background-color: black;
+}
 #header #logo {
 	margin: 30px 0 0 0;
 }
